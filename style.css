@@ -1,0 +1,236 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  background:#262626;
+  font-size: 12px;
+}
+
+div {
+display: block;
+}
+
+a {
+text-decoration: none;
+color: #ffffff;
+}
+
+img {
+border: none;
+}
+
+.block {
+  width: 100%;
+}
+
+.block_content {
+  width: 960px;
+  margin:0 auto;
+border: 1px solid #4d4b49;
+background-color: #262626;
+font-size: 12px;
+color: #b0aeac;
+}
+
+#game_highlights {
+color: #626366;
+margin-bottom: 1px;
+height: 466px;
+background-image: url(http://cdn4.store.steampowered.com/public/images/v5/game_highlight_bg.png );
+background-repeat: repeat-x;
+background-position: top;
+}
+
+div.leftcol {
+width: 630px;
+float: left;
+}
+
+.highlight_ctn {
+height: 100%;
+padding-top: 16px;
+padding-left: 16px;
+}
+
+.highlight_overflow {
+overflow: hidden;
+width: 620px;
+height: 428px;
+position: relative;
+}
+
+#highlight_player_area {
+width: 620px;
+height: 349px;
+background-color: #000000;
+overflow: hidden;
+position: relative;
+}
+
+#highlight_player_area img{
+	width:100%;
+	height: 100%;
+}
+
+.highlight_player_item {
+width: 100%;
+position: absolute;
+top: 0px;
+left: 0px;
+}
+
+.screenshot_holder {
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+width: 600px;
+height: 338px;
+}
+
+#game_highlights a {
+color: #b0aeac;
+}
+
+#highlight_strip {
+margin-top: 4px;
+position: relative;
+height: 90px;
+margin-bottom: 4px;
+width: 100%;
+z-index: 40;
+}
+
+#highlight_strip_scroll {
+position: absolute;
+}
+
+.highlight_strip_item a{
+float: left;
+height: 90px;
+width: 120px;
+cursor: pointer;
+text-align: center;
+margin: 2px;
+background-color: #000000;
+position: relative;
+opacity: 0.5;
+}
+
+.highlight_strip_item img.movie_thumb {
+width: 100%;
+}
+
+.highlight_strip_item a.focus{
+	opacity: 1;
+}
+
+.highlight_movie_marker {
+position: absolute;
+top: 16px;
+left: 42px;
+width: 32px;
+height: 32px;
+background-image: url(http://cdn4.store.steampowered.com/public/images/v5/ico_game_highlight_video.png );
+}
+
+div.slider {
+height: 13px;
+position: relative;
+background-color: #323232;
+}
+
+div.slider div.handle {
+position: absolute;
+top: 0px;
+width: 60px;
+height: 13px;
+cursor: pointer;
+background-image: url('http://cdn2.store.steampowered.com/public/images/v5/control_slider.png' );
+background-repeat: no-repeat;
+background-position: left;
+}
+
+div.rightcol {
+width: 308px;
+margin-left: 14px;
+float: left;
+overflow: hidden;
+}
+
+.glance_ctn {
+padding: 16px 16px 0px 0px;
+}
+
+.game_header_image_ctn {
+margin-bottom: 10px;
+}
+
+img.game_header_image {
+width: 292px;
+height: 136px;
+}
+
+.game_description_snippet {
+max-height: 105px;
+overflow: hidden;
+}
+
+.block .block_content .inner_rule {
+border-bottom: 1px solid #3c3d3e;
+margin: 16px 0px;
+}
+
+.block .block_content .inner_rule.small_margin {
+margin: 6px 0px;
+}
+
+.glance_tags_ctn {
+margin: 12px 0;
+font-size: 11px;
+}
+
+.glance_tags_label {
+line-height: 17px;
+}
+
+.glance_tags {
+white-space: nowrap;
+height: 22px;
+}
+
+.app_tag {
+display: inline-block;
+line-height: 19px;
+padding: 0 7px;
+color: #b0aeac;
+background-color: #384959;
+margin-right: 2px;
+border-radius: 3px;
+box-shadow: 1px 1px 0 0 #000000;
+cursor: pointer;
+margin-bottom: 3px;
+max-width: 200px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+a.linkbar {
+display: block;
+position: relative;
+height: 22px;
+background-image: url('http://cdn2.store.steampowered.com/public/images/v5/bg_link_bar.png' );
+background-repeat: no-repeat;
+background-position: right;
+padding-top: 8px;
+color: #B0AEAC;
+margin-bottom: 2px;
+text-decoration: none;
+}
+a.linkbar:hover {
+text-decoration: none;
+color: #FFFFFF;
+}
+.linkbar .rightblock {
+position: absolute;
+right: 8px;
+}
