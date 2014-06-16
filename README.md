@@ -1,4 +1,6 @@
 Highlight-Player
 ================
 
-This jQuery setup will run all images just as long as they are in a img tag, the videos that will run so far are youtube embeded iframe code. I will extend this code to be able to parse different kinds of embeded code later so this can use the other video sharing sites code.
+This jQuery setup will display the image galary as well as display videos that will run so far are youtube embeded iframe code. 
+
+Future Updates will be able to run different version of videos. Or even hosted videos that are on your site.
